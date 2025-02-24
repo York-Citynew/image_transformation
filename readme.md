@@ -4,3 +4,4 @@ This project focuses on performing transformations on images using matrices.
 > **Warnin:** There are still some issues with high determinant matrices; Example shown in notebook( 7I ).
 - > ~~convolving does not work because of memory error.~~
 - > Binning works perefectly, but when using super stertchy matrices the square shaped bins do not help. Example shown in notebook( [[1,2],[3,4]] ).
+- > Need another binning method. The `reduce` method from PIL library is too redundant.
